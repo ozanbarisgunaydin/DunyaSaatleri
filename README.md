@@ -4,3 +4,5 @@ The clock app provide the user adding clocks of cities from different timezones.
 
 The build with MVVM architecture. The data source of app provided by a local JSON file. 
 
+![alt-text](https://github.com/ozanbarisgunaydin/DunyaSaatleri/blob/main/sourceCodes.png) 
+![alt-text](https://github.com/ozanbarisgunaydin/DunyaSaatleri/blob/main/buildGif.gif) 
