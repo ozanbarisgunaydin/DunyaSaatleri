@@ -1,0 +1,20 @@
+PODS:
+  - DropDown (2.3.13)
+  - SwiftAnalogueClock (0.1.3)
+
+DEPENDENCIES:
+  - DropDown
+  - SwiftAnalogueClock
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - SwiftAnalogueClock
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  SwiftAnalogueClock: 0907072e3666bf966ba5c81b449e0ec97692509c
+
+PODFILE CHECKSUM: f3b20aec12021eeaf6b70b5ec756aaf0396c6766
+
+COCOAPODS: 1.10.2

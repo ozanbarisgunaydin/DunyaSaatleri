@@ -1,0 +1,6 @@
+framework module SwiftAnalogueClock {
+  umbrella header "SwiftAnalogueClock-umbrella.h"
+
+  export *
+  module * { export * }
+}

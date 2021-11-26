@@ -1,0 +1,66 @@
+[
+  {
+    "times": [
+      {
+        "city": "Nairobi",
+        "timeZone": "Africa/Nairobi",
+        "colorName": "Cyan",
+        "colorCode": "#00FFFF"
+      },
+      {
+        "city": "New York",
+        "timeZone": "America/New_York",
+        "colorName": "DarkBlue",
+        "colorCode": "#00008B"
+      },
+      {
+        "city": "Baku",
+        "timeZone": "Asia/Baku",
+        "colorName": "Purple",
+        "colorCode": "#800080"
+      },
+      {
+        "city": "Qatar",
+        "timeZone": "Asia/Qatar",
+        "colorName": "Lime",
+        "colorCode": "#00FF00"
+      },
+      {
+        "city": "Sydney",
+        "timeZone": "Australia/Sydney",
+        "colorName": "Pink",
+        "colorCode": "#FFC0C0"
+      },
+      {
+        "city": "Amsterdam",
+        "timeZone": "Europe/Amsterdam",
+        "colorName": "Silver",
+        "colorCode": "#C0C0C0"
+      },
+      {
+        "city": "Helsinki",
+        "timeZone": "Europe/Helsinki",
+        "colorName": "Orange",
+        "colorCode": "#FFA500"
+      },
+      {
+        "city": "Kiev",
+        "timeZone": "Europe/Kiev",
+        "colorName": "Maroon",
+        "colorCode": "#800000"
+      },
+      {
+        "city": "Zurich",
+        "timeZone": "Europe/Zurich",
+        "colorName": "Olive",
+        "colorCode": "#808000"
+      },
+      {
+        "city": "Nauru",
+        "timeZone": "Pacific/Nauru",
+        "colorName": "Magenta",
+        "colorCode": "#FF00FF"
+      }
+    ]
+  }
+]

@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063BDFEC2750BFB5001AEBDC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063BDFEB2750BFB5001AEBDC /* ColorExtension.swift */; };
+		06556F7C274F848C0003DF71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556F7B274F848C0003DF71 /* AppDelegate.swift */; };
+		06556F7E274F848C0003DF71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556F7D274F848C0003DF71 /* SceneDelegate.swift */; };
+		06556F80274F848C0003DF71 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556F7F274F848C0003DF71 /* MasterViewController.swift */; };
+		06556F85274F848C0003DF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06556F84274F848C0003DF71 /* Assets.xcassets */; };
+		06556F88274F848C0003DF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06556F86274F848C0003DF71 /* LaunchScreen.storyboard */; };
+		06556F92274F89720003DF71 /* ClockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556F91274F89720003DF71 /* ClockService.swift */; };
+		06556F95274F89C40003DF71 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556F94274F89C40003DF71 /* SelectionViewController.swift */; };
+		06556F98274F89E60003DF71 /* ClocksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556F97274F89E60003DF71 /* ClocksModel.swift */; };
+		06556F9B274F89FF0003DF71 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556F9A274F89FF0003DF71 /* ClockViewModel.swift */; };
+		06556F9D274F90830003DF71 /* ClocksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556F9C274F90830003DF71 /* ClocksCollectionViewCell.swift */; };
+		06556FA0274FDB510003DF71 /* timeZones.json in Resources */ = {isa = PBXBuildFile; fileRef = 06556F9F274FDB510003DF71 /* timeZones.json */; };
+		06556FA3274FDCAE0003DF71 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 06556FA2274FDCAE0003DF71 /* Alamofire */; };
+		06556FAB27501DD50003DF71 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06556FAA27501DD50003DF71 /* DateExtension.swift */; };
+		2D75AADB03A7B7522F498B70 /* Pods_DunyaSaatleri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AF02BE6DC51EC839051E68 /* Pods_DunyaSaatleri.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		063BDFEB2750BFB5001AEBDC /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		06556F78274F848B0003DF71 /* DunyaSaatleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DunyaSaatleri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06556F7B274F848C0003DF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06556F7D274F848C0003DF71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06556F7F274F848C0003DF71 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		06556F84274F848C0003DF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06556F87274F848C0003DF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06556F89274F848C0003DF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06556F91274F89720003DF71 /* ClockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockService.swift; sourceTree = "<group>"; };
+		06556F94274F89C40003DF71 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		06556F97274F89E60003DF71 /* ClocksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClocksModel.swift; sourceTree = "<group>"; };
+		06556F9A274F89FF0003DF71 /* ClockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
+		06556F9C274F90830003DF71 /* ClocksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClocksCollectionViewCell.swift; sourceTree = "<group>"; };
+		06556F9F274FDB510003DF71 /* timeZones.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = timeZones.json; sourceTree = "<group>"; };
+		06556FAA27501DD50003DF71 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		ACC5F5FC12DAA976C46101F9 /* Pods-DunyaSaatleri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DunyaSaatleri.release.xcconfig"; path = "Target Support Files/Pods-DunyaSaatleri/Pods-DunyaSaatleri.release.xcconfig"; sourceTree = "<group>"; };
+		D8AF02BE6DC51EC839051E68 /* Pods_DunyaSaatleri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DunyaSaatleri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF07D972F8302A3D1C41EE6 /* Pods-DunyaSaatleri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DunyaSaatleri.debug.xcconfig"; path = "Target Support Files/Pods-DunyaSaatleri/Pods-DunyaSaatleri.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06556F75274F848B0003DF71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D75AADB03A7B7522F498B70 /* Pods_DunyaSaatleri.framework in Frameworks */,
+				06556FA3274FDCAE0003DF71 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06556F6F274F848B0003DF71 = {
+			isa = PBXGroup;
+			children = (
+				06556F9F274FDB510003DF71 /* timeZones.json */,
+				06556F7A274F848B0003DF71 /* DunyaSaatleri */,
+				06556F79274F848B0003DF71 /* Products */,
+				AC8E7E0F955C735A96B0CB68 /* Pods */,
+				EDBF4FF633ECB8027405311F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06556F79274F848B0003DF71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06556F78274F848B0003DF71 /* DunyaSaatleri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06556F7A274F848B0003DF71 /* DunyaSaatleri */ = {
+			isa = PBXGroup;
+			children = (
+				06556FA927501DC30003DF71 /* Extensions */,
+				06556F99274F89EE0003DF71 /* ViewModel */,
+				06556F96274F89D50003DF71 /* Model */,
+				06556F93274F89770003DF71 /* View */,
+				06556F90274F895A0003DF71 /* Service */,
+				06556F8F274F89450003DF71 /* Core */,
+				06556F86274F848C0003DF71 /* LaunchScreen.storyboard */,
+				06556F89274F848C0003DF71 /* Info.plist */,
+			);
+			path = DunyaSaatleri;
+			sourceTree = "<group>";
+		};
+		06556F8F274F89450003DF71 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				06556F7D274F848C0003DF71 /* SceneDelegate.swift */,
+				06556F7B274F848C0003DF71 /* AppDelegate.swift */,
+				06556F84274F848C0003DF71 /* Assets.xcassets */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		06556F90274F895A0003DF71 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				06556F91274F89720003DF71 /* ClockService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		06556F93274F89770003DF71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06556F9E274F90880003DF71 /* CollectionViewCell */,
+				06556F7F274F848C0003DF71 /* MasterViewController.swift */,
+				06556F94274F89C40003DF71 /* SelectionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06556F96274F89D50003DF71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06556F97274F89E60003DF71 /* ClocksModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06556F99274F89EE0003DF71 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				06556F9A274F89FF0003DF71 /* ClockViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		06556F9E274F90880003DF71 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				06556F9C274F90830003DF71 /* ClocksCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		06556FA927501DC30003DF71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				06556FAA27501DD50003DF71 /* DateExtension.swift */,
+				063BDFEB2750BFB5001AEBDC /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC8E7E0F955C735A96B0CB68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF07D972F8302A3D1C41EE6 /* Pods-DunyaSaatleri.debug.xcconfig */,
+				ACC5F5FC12DAA976C46101F9 /* Pods-DunyaSaatleri.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDBF4FF633ECB8027405311F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8AF02BE6DC51EC839051E68 /* Pods_DunyaSaatleri.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06556F77274F848B0003DF71 /* DunyaSaatleri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06556F8C274F848C0003DF71 /* Build configuration list for PBXNativeTarget "DunyaSaatleri" */;
+			buildPhases = (
+				7645B64DE51B1D9C7D1F167C /* [CP] Check Pods Manifest.lock */,
+				06556F74274F848B0003DF71 /* Sources */,
+				06556F75274F848B0003DF71 /* Frameworks */,
+				06556F76274F848B0003DF71 /* Resources */,
+				C10D3F62D3F48BAF869A2F2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DunyaSaatleri;
+			packageProductDependencies = (
+				06556FA2274FDCAE0003DF71 /* Alamofire */,
+			);
+			productName = DunyaSaatleri;
+			productReference = 06556F78274F848B0003DF71 /* DunyaSaatleri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06556F70274F848B0003DF71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					06556F77274F848B0003DF71 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 06556F73274F848B0003DF71 /* Build configuration list for PBXProject "DunyaSaatleri" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06556F6F274F848B0003DF71;
+			packageReferences = (
+				06556FA1274FDCAE0003DF71 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 06556F79274F848B0003DF71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06556F77274F848B0003DF71 /* DunyaSaatleri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06556F76274F848B0003DF71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06556F88274F848C0003DF71 /* LaunchScreen.storyboard in Resources */,
+				06556F85274F848C0003DF71 /* Assets.xcassets in Resources */,
+				06556FA0274FDB510003DF71 /* timeZones.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7645B64DE51B1D9C7D1F167C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DunyaSaatleri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10D3F62D3F48BAF869A2F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DunyaSaatleri/Pods-DunyaSaatleri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DunyaSaatleri/Pods-DunyaSaatleri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DunyaSaatleri/Pods-DunyaSaatleri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06556F74274F848B0003DF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06556F95274F89C40003DF71 /* SelectionViewController.swift in Sources */,
+				06556F80274F848C0003DF71 /* MasterViewController.swift in Sources */,
+				06556F7C274F848C0003DF71 /* AppDelegate.swift in Sources */,
+				06556F9B274F89FF0003DF71 /* ClockViewModel.swift in Sources */,
+				06556FAB27501DD50003DF71 /* DateExtension.swift in Sources */,
+				06556F92274F89720003DF71 /* ClockService.swift in Sources */,
+				06556F98274F89E60003DF71 /* ClocksModel.swift in Sources */,
+				06556F7E274F848C0003DF71 /* SceneDelegate.swift in Sources */,
+				06556F9D274F90830003DF71 /* ClocksCollectionViewCell.swift in Sources */,
+				063BDFEC2750BFB5001AEBDC /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06556F86274F848C0003DF71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06556F87274F848C0003DF71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06556F8A274F848C0003DF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06556F8B274F848C0003DF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06556F8D274F848C0003DF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF07D972F8302A3D1C41EE6 /* Pods-DunyaSaatleri.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 225AXALHQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DunyaSaatleri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozanbarisgunaydin.DunyaSaatleri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		06556F8E274F848C0003DF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC5F5FC12DAA976C46101F9 /* Pods-DunyaSaatleri.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 225AXALHQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DunyaSaatleri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozanbarisgunaydin.DunyaSaatleri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06556F73274F848B0003DF71 /* Build configuration list for PBXProject "DunyaSaatleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06556F8A274F848C0003DF71 /* Debug */,
+				06556F8B274F848C0003DF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06556F8C274F848C0003DF71 /* Build configuration list for PBXNativeTarget "DunyaSaatleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06556F8D274F848C0003DF71 /* Debug */,
+				06556F8E274F848C0003DF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06556FA1274FDCAE0003DF71 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06556FA2274FDCAE0003DF71 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06556FA1274FDCAE0003DF71 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 06556F70274F848B0003DF71 /* Project object */;
+}
